@@ -1,4 +1,4 @@
-# Jupiter — офлайн-диктовка для Windows. 
+# Jupiter — офлайн-диктовка для Windows
 
 Read in English below
 
