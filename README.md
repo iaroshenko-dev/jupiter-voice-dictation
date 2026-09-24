@@ -4,17 +4,18 @@ Read in English below
 
 **Jupiter** — локальное приложение для голосовой диктовки на Windows.
 
-Говорите — текст появляется непосредственно в активном приложении. Обработка речи выполняется локально на компьютере пользователя.
+Говорите — текст появляется там, где стоит курсор: в Word, браузере, блокноте и других приложениях. Обработка речи выполняется локально на компьютере пользователя. Никакой отправки голоса на сервер.
 
-Jupiter создавался как полноценный прикладной продукт — от идеи и исследования технологий до рабочего Windows-релиза и установщика.
+Jupiter прошёл полный цикл разработки — от идеи и исследования технологий до рабочего Windows-релиза, установщика и системы лицензирования.
 
 ## Возможности
 
 * голосовая диктовка в реальном времени;
-* локальная обработка речи;
-* работа непосредственно с приложениями Windows;
+* без активации кнопкой — Jupiter постоянно слушает;
+* если диктовка не нужна — приложение можно поставить на паузу;
 * системный трей;
-* режимы работы и паузы;
+* ввод текста в активное Windows-приложение;
+* локальная обработка речи;
 * система лицензирования;
 * готовый Windows-установщик.
 
@@ -29,17 +30,19 @@ Jupiter создавался как полноценный прикладной 
 
 ## О проекте
 
-Jupiter — самостоятельный программный продукт, разработанный от первоначальной идеи до готового Windows-релиза.
+Jupiter — это три слова:
 
-В процессе разработки были самостоятельно исследованы и протестированы различные технологии распознавания речи, разработана собственная логика обработки данных и реализована интеграция приложения с Windows.
+**Локально. Быстро. Просто.**
 
-Проект включает не только программную часть, но и упаковку приложения, установщик, системный трей и механизм лицензирования.
+Это не универсальный AI-ассистент с десятками функций. Jupiter делает одну вещь — превращает речь в текст непосредственно в активном приложении.
 
-## Приватность
+Приложение работает в фоне и находится в системном трее. Не нужно открывать большое окно или постоянно нажимать кнопку: говорите — текст появляется на экране, поставили на паузу — Jupiter перестал слушать.
 
-Jupiter ориентирован на локальную обработку речи.
+При разработке отдельно тестировали разные технологии распознавания речи и варианты локальной обработки. В результате получился самостоятельный Windows-продукт с нативным вводом текста, фоновой работой, упаковкой в установщик и лицензированием.
 
-Голос пользователя не требуется отправлять на удалённый сервер для основной функции диктовки.
+## Кому подойдёт
+
+Врачам, юристам, писателям, тем, кто много общается с нейросетями, журналистам.... - в общем всем тем кто много работает с текстом.
 
 ## Скачать
 
@@ -61,17 +64,18 @@ Jupiter ориентирован на локальную обработку ре
 
 **Jupiter** is a local voice dictation application for Windows.
 
-Speak naturally and the recognized text is entered directly into the active Windows application. Speech processing is performed locally on the user's computer.
+Speak naturally and the recognized text is entered directly into the active Windows application. Speech processing runs locally on the user's computer, without sending voice data to a remote server.
 
-Jupiter was developed as a complete applied software product — from the initial idea and technology research to a working Windows release and installer.
+Jupiter was developed as a complete software product — from the initial idea and technology research to a working Windows release, installer, and licensing system.
 
 ## Features
 
 * real-time voice dictation;
-* local speech processing;
+* automatic speech recognition without pressing a button;
+* pause mode;
 * direct text input into Windows applications;
 * system tray integration;
-* working and pause modes;
+* local speech processing;
 * license and trial system;
 * ready-to-use Windows installer.
 
@@ -86,11 +90,15 @@ Jupiter was developed as a complete applied software product — from the initia
 
 ## About the Project
 
-Jupiter is an independently developed software product taken from the initial concept to a working Windows release.
+Jupiter is a focused dictation tool built around a simple idea:
 
-The development process involved researching and testing different speech recognition technologies, developing custom application logic, and integrating the software with Windows.
+**Local. Fast. Simple.**
 
-The project also includes application packaging, a Windows installer, system tray integration, and licensing.
+Instead of trying to be a universal AI assistant, Jupiter focuses on one task — converting speech into text directly inside the application the user is working with.
+
+The application runs in the background and is controlled through the system tray. It does not require a large interface or constant button presses.
+
+During development, different speech recognition technologies and local processing approaches were researched and tested. The final product combines speech recognition, Windows integration, background operation, application packaging, and licensing into a standalone Windows application.
 
 ## Privacy
 
